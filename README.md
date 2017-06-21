@@ -1,2 +1,2 @@
-# news-webapp
-使用webpack、react、antd、sass等开发一个新闻webapp
+# reactapp
+webpack+react+sass构建一个项目

@@ -1,0 +1,28 @@
+.load-more{
+		font-size: 14px;
+		color: #666;
+		line-height: 45px;
+		background: #fff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		span{
+			@keyframes circle {
+				0%{
+					transform: rotate(0deg);
+				}
+			    100% {
+			    	transform: rotate(360deg);
+			    }
+			}
+			margin-right: 10px;
+			border: 1px solid #666;
+			border-top: transparent;
+			display: inline-block;
+			width: 16px;
+			height: 16px;
+			border-radius: 50%;
+			align-items: center;
+			animation: circle .8s infinite linear;
+		}
+	}
