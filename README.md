@@ -1,6 +1,6 @@
 # reactapp
 webpack+react+sass构建一个项目
-# 使用说明
+## 使用说明
 ```
 npm install
 ```
